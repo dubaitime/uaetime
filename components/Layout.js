@@ -2,6 +2,12 @@ import classNames from 'classnames';
 import { useEffect } from 'react';
 import styles from './Layout.module.css';
 
+export const metadata = {
+  other: {
+    google-site-verification: 'Fpr07LDWU9QkPGDn1OHt8MGCxb-lfwMZU4xOOzmY7Vg',
+  },
+}
+
 export function GradientBackground({ variant, className }) {
   const classes = classNames(
     {
